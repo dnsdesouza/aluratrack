@@ -27,7 +27,7 @@ export default defineComponent({
       if (this.modoEscuroAtivo){
         return 'Desativar modo escuro'
       }
-      return 'Ativar modo escuro'
+      return 'Ativar modo escuro '
     }
   },
   methods: {

@@ -3,7 +3,7 @@
         <strong class="display">{{ tempoDecorrido }}</strong>
     </section>
 </template>
-
+<!-- fgfgdsg -->
 <script lang = "ts">
 import { defineComponent} from 'vue'
 

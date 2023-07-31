@@ -38,7 +38,7 @@ export default defineComponent({
     methods: {
         iniciar() {
             //começa a contagem
-            //1 seg = 1000m
+            //1 seg = 1000mmmm
             this.cronometroRodando = true
             this.cronometro = setInterval(() => {
             this.tempoEmSegundos += 1

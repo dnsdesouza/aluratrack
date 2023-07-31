@@ -8,7 +8,7 @@
       <div class="lista">
         <Tarefa v-for="(tarefa, index) in tarefas" :key="index" :tarefa="tarefa" />
         <Box v-if ="listaEstaVazia">
-          Voce não está produtivo:(
+          Voce não está produtivo hoje:(
        </Box>
      </div>
      
@@ -30,7 +30,8 @@ export default defineComponent({
   components: {
     BarraLateral,
     Formulario,
-    Tarefa
+    Tarefa,
+    Box
   },
   data() {
     return {
